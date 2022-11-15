@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background: linear-gradient(green,yellow)
+}
+h1{
+    margin: 10px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+a svg{
+    width: 50px;
+    position: absolute;
+    top: 10px;
+    right: 10;
+}
+
+
+
+
+
+
+img{
+    width: 720px;
+    height: 400px;
+}
+.slider{
+    width: 720px;
+    height:400px;
+    overflow: hidden;
+    
+}
+.slider .slides{
+    display: block;
+    width: 3000px;
+    height: 400;
+}
+.slider .slide{
+    float: left;
+    list-style-type: none;
+    width: 720px;
+    height: 400px;
+}
+.cont{
+    display: flex;
+    justify-content: center;
+}
+p{
+    font-weight: bold;
+    font-size:25px ;
+    margin: 5px;
+}

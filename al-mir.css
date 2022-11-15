@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: white;
+    
+}
+body{
+    background-image: url("genpic/back2.jpg");
+}
+h1{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    margin-bottom: 50px;
+}
+svg{
+    width: 50px;
+    position: absolute;
+    top: 5px;
+    left: 2px;
+    color: white;
+    
+}
+.pic{
+    display: flex;
+    justify-content: center;
+}
+img{
+    width: 350px;
+}
+p{
+    margin: 5px;
+    font-weight: bold;
+    font-size: 25px;
+}

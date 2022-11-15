@@ -1,0 +1,78 @@
+:root{
+    --col1:aqua;
+    --col2:lime;
+    --col3:yellow;
+    --col4:orange;
+    --col5:red;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color:white;
+    
+}
+body{
+    background-image: url("genpic/rubik1.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    backdrop-filter: blur(5px);
+}
+h1{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    margin-bottom: 50px;
+    color: transparent;
+    /* text-shadow: 0 0 0 #33333333; */
+    background: linear-gradient(
+        220deg,
+        var(--col1)20%,
+        var(--col2)40%,
+        var(--col3)60%,
+        var(--col4)80%,
+        var(--col5)100%
+    );
+
+    -webkit-background-clip: text;
+}
+svg{
+    width: 50px;
+    position: absolute;
+    top: 5px;
+    left: 2px;
+    color: white;
+    
+}
+.pic{
+    float: left;
+    display: flex;
+    justify-content: center;
+   margin:10px;
+}
+img{
+    
+    height: 300px; 
+    width:600px  
+}
+p{
+    margin: 5px;
+    font-weight: bold;
+    font-size: 25px;
+    color: transparent;
+    /* text-shadow: 0 0 0 #33333333; */
+    background: linear-gradient(
+        220deg,
+        var(--col5)20%,
+        var(--col4)40%,
+        var(--col3)60%,
+        var(--col2)80%,
+        var(--col1)100%
+    );
+
+    -webkit-background-clip: text;
+
+}
